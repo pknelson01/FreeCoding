@@ -9,3 +9,6 @@ q : queue.cpp
 
 a : alphabetized.cpp
 	g++ -std=c++17 -Wall -o a alphabetized.cpp
+
+file : filePractice.cpp
+	g++ -std=c++17 -Wall -o file filePractice.cpp

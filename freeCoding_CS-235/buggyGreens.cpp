@@ -72,6 +72,7 @@ public:
 int main() {
     cout << "Welcome to Buggy Greens Golf Club!" << endl;
     GolfBag bag;
+
     for (auto [club, yardage] : bag.getAllClubs()) {
         cout << club << " -> " << yardage << " yards" << endl;
     }

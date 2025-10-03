@@ -4,7 +4,7 @@
 #include <fstream>
 #include <sstream> 
 
-/* To handle spaces and punctuation:
+/* TODO: to handle spaces and punctuation
    if (c = cipher.end()) {
       result << in[i];
    }
@@ -37,10 +37,10 @@ int main() {
       sToA[scramble[i] - 'a' + 'A'] = alphabet[i] - 'a' + 'A';
    }
 
+
    // for (auto &entry : aToS) {
    //    cout << entry.first << " - " << entry.second << endl;
    // }
-
    // for (auto &entry : sToA) {
    //    cout << entry.first << " - " << entry.second << endl;
    // }

@@ -27,6 +27,14 @@ using std::cout, std::endl, std::cin, std::string, std::map, std::ifstream, std:
          - After scrambling, ask if you would like to decode.
 */
 
+int scramble() {
+   return 0;
+}
+
+int decode() {
+   return 0;
+}
+
 int main() {
    map<char, char> aToS;
    map<char, char> sToA;

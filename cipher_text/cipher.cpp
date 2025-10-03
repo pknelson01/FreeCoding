@@ -16,6 +16,13 @@
          }
 
       -- Make sure you #include "input.h"
+
+   -- Improve this cipher with the following features:
+      - Create a console experience. 
+         - "Would you like to scramble... "
+            "... a text file? (1)"
+            "... console input? (2)"
+         - After scrambling, ask if you would like to decode.
 */
 
 using std::cout, std::endl, std::cin, std::string, std::map, std::ifstream, std::istringstream, std::ofstream;
@@ -32,34 +39,40 @@ int main() {
       aToS[alphabet[i] - 'a' + 'A'] = scramble[i] - 'a' + 'A';
    }
 
+   ifstream inFile("text.txt");
+   if (!inFile) return 1;
+
+   ofstream outFile("scrambled_nemiksManifesto.txt");
+   if (!outFile) return 1;
+
+   while (getline(inFile, line)) {
+      for (char &c : line) {
+         auto key = aToS.find(c);
+         if (key != aToS.end()) {
+            c = key->second;
+         }
+      }
+      outFile << line << endl;
+   } cout << "Encrypting complete. Output written to scrambled_nemiksManifesto.txt" << endl;
+
    for (size_t i = 0; i < alphabet.length(); i++) {
       sToA[scramble[i]] = alphabet[i];
       sToA[scramble[i] - 'a' + 'A'] = alphabet[i] - 'a' + 'A';
    }
 
+   ifstream inputFile("scrambled_nemiksManifesto.txt");
+   if (!inputFile) return 1;
 
-   // for (auto &entry : aToS) {
-   //    cout << entry.first << " - " << entry.second << endl;
-   // }
-   // for (auto &entry : sToA) {
-   //    cout << entry.first << " - " << entry.second << endl;
-   // }
+   ofstream outputFile("nemiksManifesto.txt");
+   if (!outputFile) return 1;
 
-   ifstream inFile("scrambled_nemiksManifesto.txt");
-   if (!inFile) return 1;
-
-   ofstream outFile("nemiksManifesto.txt");
-   if (!outFile) return 1;
-
-   while (getline(inFile, line))  {
+   while (getline(inputFile, line)) {
       for (char &c : line) {
          auto key = sToA.find(c);
          if (key != sToA.end()) {
-            cout << "Before reassignment: " << c << endl;
             c = key->second;
          }
       }
-      outFile << line << endl;
-   }
-   cout << "Decoding complete. Output written to nemiksManifesto.txt" << endl;
+      outputFile << line << endl;
+   } cout << "Decoding complete. Output written to nemiksManifesto.txt" << endl;
 }

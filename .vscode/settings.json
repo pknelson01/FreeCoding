@@ -2,5 +2,8 @@
     "cSpell.words": [
         "nemiks",
         "qwzeryhtapjglndkvxoubicfms"
-    ]
+    ],
+    "files.associations": {
+        "iostream": "cpp"
+    }
 }

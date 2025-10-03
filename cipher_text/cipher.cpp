@@ -55,9 +55,8 @@ int main() {
       for (char &c : line) {
          auto key = sToA.find(c);
          if (key != sToA.end()) {
-            cout << "Before reassignment: " << c;
+            cout << "Before reassignment: " << c << endl;
             c = key->second;
-            // cout << " - After reassignment: " << c << endl;
          }
       }
       outFile << line << endl;

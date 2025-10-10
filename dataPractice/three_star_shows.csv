@@ -1,0 +1,132 @@
+name,year,rating,director,oscar_award,oscar_01
+Knives Out,2019,3.0,Rian Johnson,,0
+Saltburn,2023,3.0,Emerald Fennell,,0
+Black Swan,2010,3.0,Darren Aronofsky,Won 1 Oscar,1
+Her,2013,3.0,Spike Jonze,Won 1 Oscar,1
+Guardians of the Galaxy,2014,3.0,James Gunn,,0
+Black Panther,2018,3.0,Ryan Coogler,Won 3 Oscars,1
+The Perks of Being a Wallflower,2012,3.0,Stephen Chbosky,,0
+Coco,2017,3.0,Lee Unkrich & Adrian Molina,Won 2 Oscars,1
+Up,2009,3.0,Pete Docter & Bob Peterson,Won 2 Oscars,1
+Inside Out,2015,3.0,Pete Docter,Won 2 Oscars,1
+Spider-Man: Homecoming,2017,3.0,Jon Watts,,0
+Soul,2020,3.0,Pete Docter & Kemp Powers,Won 2 Oscars,1
+The Hunger Games,2012,3.0,Gary Ross,,0
+Avatar,2009,3.0,James Cameron,Won 3 Oscars,1
+Harry Potter and the Philosopher's Stone,2001,3.0,Chris Columbus,,0
+Doctor Strange in the Multiverse of Madness,2022,3.0,Sam Raimi,,0
+Uncut Gems,2019,3.0,Josh & Benny Safdie,,0
+Spider-Man: Far From Home,2019,3.0,Jon Watts,,0
+The Avengers,2012,3.0,Joss Whedon,,0
+Killers of the Flower Moon,2023,3.0,Martin Scorsese,,0
+The Banshees of Inisherin,2022,3.0,Martin McDonagh,Won 1 Oscar,1
+It,2017,3.0,Andy Muschietti,,0
+Spider-Man,2002,3.0,Sam Raimi,,0
+Shrek,2001,3.0,Andrew Adamson / Vicky Jenson,Won 1 Oscar,1
+Toy Story,1995,3.0,John Lasseter,Won 1 Oscar (Special),1
+Guardians of the Galaxy Vol. 2,2017,3.0,James Gunn,,0
+Home Alone,1990,3.0,Chris Columbus,,0
+"Monsters, Inc.",2001,3.0,Pete Docter & David Silverman,Won 1 Oscar,1
+Doctor Strange,2016,3.0,Scott Derrickson,,0
+Spider-Man 2,2004,3.0,Sam Raimi,Won 2 Oscars,1
+The Hunger Games: Catching Fire,2013,3.0,Francis Lawrence,,0
+Anyone But You,2023,3.0,Will Gluck,,0
+Princess Mononoke,1997,3.0,Hayao Miyazaki,,0
+Don't Worry Darling,2022,3.0,Olivia Wilde,,0
+The Suicide Squad,2021,3.0,James Gunn,,0
+Twilight,2008,3.0,Catherine Hardwicke,,0
+Star Wars: Episode I – The Phantom Menace,1999,3.0,George Lucas,,0
+Shang-Chi and the Legend of the Ten Rings,2021,3.0,Destin Daniel Cretton,,0
+Harry Potter and the Half-Blood Prince,2009,3.0,David Yates,,0
+Ant-Man,2015,3.0,Peyton Reed,,0
+Pirates of the Caribbean: The Curse of the Black Pearl,2003,3.0,Gore Verbinski,Won 1 Oscar,1
+Captain America: The First Avenger,2011,3.0,Joe Johnston,,0
+The Great Gatsby,2013,3.0,Baz Luhrmann,,0
+Deadpool 2,2018,3.0,David Leitch,,0
+Star Wars: The Rise of Skywalker,2019,3.0,J.J. Abrams,,0
+Incredibles 2,2018,3.0,Brad Bird,Won 1 Oscar,1
+Iron Man 2,2010,3.0,Jon Favreau,,0
+Toy Story 2,1999,3.0,John Lasseter,Won 1 Oscar,1
+The Hunger Games: Mockingjay – Part 1,2014,3.0,Francis Lawrence,,0
+Pan's Labyrinth,2006,3.0,Guillermo del Toro,Won 3 Oscars,1
+Venom,2018,3.0,Andy Serkis,,0
+Free Guy,2021,3.0,Shawn Levy,,0
+Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn),2020,3.0,David Ayer,,0
+It Chapter Two,2019,3.0,Andy Muschietti,,0
+Fantastic Beasts and Where to Find Them,2016,3.0,David Yates,,0
+Dungeons & Dragons: Honor Among Thieves,2023,3.0,Jonathan Goldstein & John Francis Daley,,0
+The Fall Guy,2024,3.5,David Leitch,,0
+Wicked,2024,3.5,Jon M. Chu,,0
+The Town,2010,3.0,Ben Affleck,,0
+The Wizard of Oz,1939,3.5,Victor Fleming,Won 2 Oscars,1
+The Northman,2022,3.0,Robert Eggers,,0
+Dallas Buyers Club,2013,3.0,Jean-Marc Vallée,Won 3 Oscars,1
+Deadpool & Wolverine,2024,3.5,Shawn Levy,,0
+Ferris Bueller's Day Off,1986,3.5,John Hughes,,0
+Meet the Parents,2000,3.5,Jay Roach,,0
+Civil War,2024,3.0,,,0
+The Revenant,2015,3.5,Alejandro González Iñárritu,Won 3 Oscars,1
+Once Upon a Time... in Hollywood,2019,3.5,Quentin Tarantino,Won 2 Oscars,1
+Annihilation,2018,3.5,Alex Garland,,0
+Brave,2012,3.5,Mark Andrews & Brenda Chapman,Won 1 Oscar,1
+Elf,2003,3.5,Jon Favreau,,0
+Joker: Folie à Deux,2024,3.0,Todd Phillips,,0
+It Ends with Us,2024,3.0,,,0
+Kingdom of the Planet of the Apes,2024,3.0,Wes Ball,,0
+Five Feet Apart,2019,3.0,Justin Baldoni,,0
+Aquaman,2018,3.0,James Wan,,0
+Jurassic World: Fallen Kingdom,2018,3.5,J.A. Bayona,,0
+Solo: A Star Wars Story,2018,3.5,Ron Howard,,0
+Transformers: The Last Knight,2017,3.0,Michael Bay,,0
+Cars 3,2017,3.0,Brian Fee,,0
+Pirates of the Caribbean: Dead Men Tell No Tales,2017,3.0,Joachim Rønning & Espen Sandberg,,0
+Kong: Skull Island,2017,3.0,Jordan Vogt-Roberts,,0
+Beauty and the Beast,2017,3.0,Bill Condon,,0
+The Lego Batman Movie,2017,3.0,Chris McKay,,0
+A Dog's Purpose,2017,3.0,Charles Martin Smith,,0
+The Founder,2016,3.0,John Lee Hancock,,0
+Maze Runner: The Scorch Trials,2015,3.0,James Dashner,,0
+Paul Blart: Mall Cop 2,2015,3.0,Andy Fickman,,0
+Southpaw,2015,3.5,Antoine Fuqua,,0
+Insurgent,2015,3.0,Robert Schwentke,,0
+The Maze Runner,2014,3.0,Wes Ball,,0
+Teenage Mutant Ninja Turtles,2014,3.0,Jonathan Liebesman,,0
+The Giver,2014,3.0,Phillip Noyce,,0
+Transformers: Age of Extinction,2014,3.5,Michael Bay,,0
+Godzilla,2014,3.0,Gareth Edwards,,0
+The Lone Ranger,2013,3.0,Gore Verbinski,,0
+Pacific Rim,2013,3.0,Guillermo del Toro,,0
+Monsters University,2013,3.0,Dan Scanlon,,0
+The Croods,2013,3.0,Chris Sanders & Kirk DeMicco,,0
+The Adventures of Tintin,2011,3.0,Steven Spielberg,,0
+Transformers: Dark of the Moon,2011,3.0,Michael Bay,,0
+Cars 2,2011,3.0,John Lasseter / Brad Lewis,,0
+Pirates of the Caribbean: On Stranger Tides,2011,3.0,Rob Marshall,,0
+Prince of Persia: The Sands of Time,2010,3.0,Mike Newell,,0
+Alice in Wonderland,2010,3.0,Tim Burton,,0
+Sherlock Holmes,2009,3.0,Guy Ritchie,,0
+Transformers: Revenge of the Fallen,2009,3.0,Michael Bay,,0
+Night at the Museum: Battle of the Smithsonian,2009,3.0,Shawn Levy,,0
+Madagascar: Escape 2 Africa,2008,3.0,Eric Darnell / Tom McGrath,,0
+The Incredible Hulk,2008,3.0,Louis Leterrier,,0
+Hot Rod,2007,3.5,Akiva Schaffer,,0
+High School Musical 2,2007,3.0,Kenny Ortega,,0
+Pirates of the Caribbean: At World's End,2007,3.0,Gore Verbinski,,0
+Pirates of the Caribbean: Dead Man's Chest,2006,3.5,Gore Verbinski,,0
+Monster House,2006,3.0,Gil Kenan,,0
+Ice Age: The Meltdown,2006,3.5,Steve Martino / Mike Thurmeier,,0
+"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",2005,3.5,Andrew Adamson,,0
+High School Musical,2006,3.5,Kenneth Branagh,,0
+The Adventures of Sharkboy and Lavagirl,2005,3.0,Robert Rodriguez,,0
+Madagascar,2005,3.0,Eric Darnell / Tom McGrath,,0
+Hitch,2005,3.5,Andy Tennant,,0
+Ice Age,2002,3.0,Chris Wedge,,0
+Remember the Titans,2000,3.0,Boaz Yakin,,0
+A Bug's Life,1998,3.5,John Lasseter,,0
+The Mask,1994,3.0,Chuck Russell,,0
+The Fugitive,1993,3.5,Andrew Davis,Won 1 Oscar,1
+Star Wars: The Clone Wars,2008,3.5,George Lucas,,0
+Toy Story 4,2019,3.5,Josh Cooley,Won 1 Oscar,1
+Ne Zha 2,2025,3.5,Ji Zhao,,0
+KPop Demon Hunters,2025,3.5,,,0
+The Fantastic Four: First Steps,2025,3.0,,,0

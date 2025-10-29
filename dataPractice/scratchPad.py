@@ -18,18 +18,15 @@ def format_counter(num):
     else:
         return f"{num}."
 
-# Load Data
 tvShowData = pd.read_csv("tvShows.csv")
 movieData = pd.read_csv("movies.csv")
 
-# TV Show Ratings
 fiveStar = tvShowData.loc[tvShowData["rating"] == 5]
 fourStar = tvShowData.loc[tvShowData["rating"] == 4]
 threeStar = tvShowData.loc[tvShowData["rating"] == 3]
 twoStar = tvShowData.loc[tvShowData["rating"] == 2]
 oneStar = tvShowData.loc[tvShowData["rating"] == 1]
 
-# Movie Ratings (keeping .5 ratings separate)
 movieFiveStar = movieData.loc[movieData["rating"] == 5]
 movieFourStar = movieData.loc[movieData["rating"] == 4]
 movieFourHalfStar = movieData.loc[movieData["rating"] == 4.5]
@@ -40,7 +37,6 @@ movieTwoHalfStar = movieData.loc[movieData["rating"] == 2.5]
 movieOneStar = movieData.loc[movieData["rating"] == 1]
 movieOneHalfStar = movieData.loc[movieData["rating"] == 1.5]
 
-# Start Main Program
 while True:
     clear_screen()
     response = input("Welcome to Parker's Movie and TV-Show reviews:\nWould you like to see movies or tv-shows? (M/T)\n(Press Enter to exit): ")
@@ -48,7 +44,6 @@ while True:
         clear_screen()
         print("Generating charts...")
 
-        # ===== Generate TV SHOW BAR CHART =====
         tv_counts = tvShowData["rating"].value_counts().sort_index()
         plt.figure(figsize=(8, 6))
         sns.barplot(x=tv_counts.index, y=tv_counts.values, palette="coolwarm")
@@ -59,7 +54,6 @@ while True:
         plt.savefig("tvshow_ratings_chart.png")
         plt.close()
 
-        # ===== Generate MOVIE BAR CHART =====
         movie_counts = movieData["rating"].value_counts().sort_index()
         plt.figure(figsize=(8, 6))
         sns.barplot(x=movie_counts.index, y=movie_counts.values, palette="magma")
